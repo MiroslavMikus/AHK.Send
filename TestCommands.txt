@@ -1,0 +1,9 @@
+## Tests for SendFromParameter.ahk
+
+.\SendFromParameter.ahk "{LWin}Hallo World"
+.\SendFromParameter.ahk "#rpowershell{enter}#rchrome{enter}"
+
+
+## Tests for SendFromRelativePaht.ahk
+
+.\SendFromRelativePaht.ahk "TestText.txt"
