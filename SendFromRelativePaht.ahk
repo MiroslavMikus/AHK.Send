@@ -1,10 +1,12 @@
 ; Script that accepts relative path read and send each line
 
-fileToSend = %1%
+#include %A_ScriptDir%\CheckIfExist.ahk
 
-SetKeyDelay, 50
+fileToSend = %A_ScriptDir%\%1%
 
-Loop, read, %A_ScriptDir%\%fileToSend%
+CheckFile(fileToSend)
+
+Loop, read, %fileToSend%
 {
     send, %A_LoopReadLine%
 }
