@@ -23,7 +23,7 @@ This script need as parameter *relative Path* to Text file where is sequence sto
 
 .\SendFromRelativePaht.ahk "TestText.txt"
 
-### Test sould fail
+### Test should fail
 
 .\SendFromRelativePaht.ahk "TestTexat.txt"
 
@@ -35,6 +35,6 @@ This script need as parameter *absolute Path* to Text file where is sequence sto
 
 F:\Projekte.Github\AHK.Send\SendFromAbsolutePaht.ahk "TestText.txt"
 
-### Should fail
+### Test should fail
 
 F:\Projekte.Github\AHK.Send\SendFromAbsolutePaht.ahk "TestTexat.txt"
