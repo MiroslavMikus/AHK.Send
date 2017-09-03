@@ -1,7 +1,7 @@
 ; Script that accepts text as process argument and send it 
 
-textToSend = %1%
+#include %A_ScriptDir%\SetDelay.ahk
 
-SetKeyDelay, 50
+textToSend = %1%
 
 Send, %textToSend%
